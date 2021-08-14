@@ -1,6 +1,3 @@
-### Quick note
-This is script is based on [searene/windows-desktop-switcher](https://github.com/searene/windows-desktop-switcher), but I changed the `Win` key with `Alt` because it fits my muscle memory better.
-
 # windows-desktop-switcher
 An AutoHotKey script for Windows that lets a user change virtual desktops by pressing Alt + [1,2,3,4].
 
@@ -20,4 +17,7 @@ To change the key mappings, modify the bottom of the script and reload. Be sure 
 ## Other
 To see debug messages, download [SysInternals DebugView](https://technet.microsoft.com/en-us/sysinternals/debugview).
 
-Disclaimer: I've only tried this on my machine, and on Windows 10. Use at your own risk.
+## Credits
+
+This script is based on [searene/windows-desktop-switcher](https://github.com/searene/windows-desktop-switcher).
+I have changed the `Win` key with `Alt` because it fits my muscle memory better.
