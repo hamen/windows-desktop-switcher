@@ -1,20 +1,17 @@
 ### Quick note
-I wrote this as a quick evening script to solve my problem. If you're looking for something more robust & need more than this script can give you, check out:
-https://github.com/sdias/win-10-virtual-desktop-enhancer
+This is script is based on [searene/windows-desktop-switcher](https://github.com/searene/windows-desktop-switcher), but I changed the `Win` key with `Alt` because it fits my muscle memory better.
 
 # windows-desktop-switcher
-An AutoHotKey script for Windows that lets a user change virtual desktops by pressing Win + &lt;num>. It also allows for creation/deletion of desktops by hotkey (see below).
-
-## Overview
-This script creates 'better' hotkeys for switching virtual desktops in windows 10. I built this to better mirror
-the mapping I use on linux (with dwm), and it's always annoyed me that Windows does not have better
-hotkey support for this feature (for instance, there's no way to go directly to a desktop by number).
+An AutoHotKey script for Windows that lets a user change virtual desktops by pressing Alt + [1,2,3,4].
 
 ## Installation
-Install AutoHotKey, then run the desktop_switcher.ahk script (open with AutoHotKey if prompted). I would recommend putting it in your startup folder and it'll be invoked on login.
+
+1. Install [AutoHotKey](https://www.autohotkey.com/) 
+2. Run the `desktop_switcher.ahk` script (open with AutoHotKey if prompted)
+3. Find your [App startup](https://support.microsoft.com/en-us/windows/add-an-app-to-run-automatically-at-startup-in-windows-10-150da165-dcd9-7230-517b-cf3c295d89dd) folder and put the file there so it will run at system startup.
 
 ## Hotkeys
-        <Win> + <Num>      - Switches to virtual desktop "num".
+        <Alt> + <Num>      - Switches to virtual desktop 1, 2, 3 or 4
         <Win> + A or P     - Switch to virtual desktop on left
         <Win> + S or N     - Switch to virtual desktop on right
 
